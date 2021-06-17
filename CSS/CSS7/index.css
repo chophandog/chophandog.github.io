@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    height: 720px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url('https://3.bp.blogspot.com/-RfrtBCqOYNQ/WjpTfxsju2I/AAAAAAAAtUw/uitlBiCcG9A8--RFWcI9X0FalfRLyoUaQCLcBGAs/s1600/hinh-nen-cuc-dep-cho-may-tinh.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+nav {
+    text-align: center;
+
+}
+
+nav > span {
+    font-family: 'Open Sans', sans-serif;
+}

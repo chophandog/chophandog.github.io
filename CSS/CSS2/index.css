@@ -1,0 +1,13 @@
+#second-p {
+    border-left-style: dotted;
+    border-right-style: solid;
+    border-top-style: dashed;
+    border-bottom-style: double;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: red;
+
+
+    padding: 16px;
+    margin: 30px;
+}

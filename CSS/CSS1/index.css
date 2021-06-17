@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+p {
+    color: red;
+    text-align: justify;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

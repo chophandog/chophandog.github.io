@@ -1,0 +1,13 @@
+.image-item {
+    width: 400px;
+    height: 500px;
+}
+
+.image-wrapper {
+    display: inline;
+
+}
+
+.menu-item {
+    display: block;
+}

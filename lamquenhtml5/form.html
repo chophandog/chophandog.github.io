@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo Form</title>
+
+    <style>
+        #register-form {
+            width: 300px;
+            background-color: white;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .input-label {
+            margin: 0;
+            margin-top: 4px;
+            margin-bottom: 12px;
+            
+        }
+
+        .input-item {
+            width: 100%;
+
+        }
+
+        #terms-check {
+            margin-top: 12px;
+            margin-bottom: 18px;
+        }
+
+        /* #submit {
+            text-align: center;
+        } */
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center;">Sign Up</h1>
+    <form id="register-form" action="">
+        <div>
+            <p class="input-label">Full Name: </p> 
+            <input class="input-item" type="text" name="full-name" placeholder="Full Name" autofocus required>
+        </div>
+
+        <div>
+            <p class="input-label">Email: </p> 
+            <input class="input-item" type="text" name="email" placeholder="Email" required>
+        </div>
+
+        <div>
+            <p class="input-label">Password: </p> 
+            <input class="input-item" type="password" name="password" placeholder="Password" required>
+        </div>
+
+        <div>
+            <p class="input-label">Comfirm Password: </p> 
+            <input class="input-item" type="password" name="comfirm-password" placeholder="Comfirm Password" required>
+        </div>
+
+        <div>
+            <p class="input-label">Gender: </p> 
+            <input type="radio" name="gender" value="male" > Male
+            <input type="radio" name="gender" value="femail"> Female
+            <input type="radio" name="gender" value="other"> Other
+        </div>
+
+        <div>
+            <p class="input-label">AGE:</p>
+            <input class="input-item" type="number" name="age" min="1" max="120">
+        </div>
+
+        <div>
+            <p class="input-label">Security Question: </p> 
+            <select class="input-item" name="security-question" id="">
+                <option value="first-pet-name">What was your first pet name?</option>
+                <option value="first-job">What was your first job?</option>
+                <option value="nick-name">What is your nick name?</option>
+            </select>
+
+        </div>
+        
+        <div>
+            <textarea class="input-item" name="answer" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input id="terms-check" type="checkbox" name="terms-conditions" value="accept"> I agree to accept the terms and conditions
+        </div>
+
+        <div>
+            <input type="date" name="date">
+        </div>
+        <br>
+        
+        <div>
+            <input type="file" name="image">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset">
+        </div>
+        <br>
+        <div>
+            <input id="submit" type="submit" value="SUBMIT">
+        </div>
+    </form>
+</body>
+</html>

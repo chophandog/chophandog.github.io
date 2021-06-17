@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        #header {
+            background-color: lightblue;
+            padding:24px ;
+        }
+
+        #navbar {
+            background-color: lightcoral;
+            padding: 8px;
+        }
+
+        #main-section {
+            background-color: lightgray;
+            padding: 24px;
+        }
+
+        #section {
+            background-color: lightgreen;
+            padding: 16px;
+        }
+
+        .article {
+            background-color: lightseagreen;
+            padding: 8px;
+            margin-top: 8px;
+        }
+
+        #footer {
+            background-color: lightskyblue;
+            padding: 24px;
+        }
+
+        table {
+            width: 600px;
+            background-color: lightskyblue;
+            margin-top: 24px;
+            margin-left: 16px;
+        }
+
+        
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 24px;
+        }
+
+        td, th{
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <span>Menu 1</span>
+            <span>Menu 2</span>
+            <span>Menu 3</span>
+        </nav>
+    </header>
+
+    <main id="main-section">
+        <section id="section">
+            <article class="article">
+                <header>
+                    <h3>Article Title One</h3>
+                    <a href="/">Author One</a>
+                </header>
+                <p>Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP</p>
+            </article>
+
+            <details>
+                <summary>Chapter ONE</summary>
+                <p>ĐÂY LÀ CHAP 1</p>
+            </details>
+
+            <details>
+                <summary>Chapter TWO</summary>
+                <ul>
+                    <li>hihi</li>
+                    <li>hihi</li>
+                    <li>hihi</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Chapter THREE</summary>
+                <p>ĐÂY LÀ CHAP 3 </p>
+            </details>
+
+            <article class="article">
+                <header>
+                    <h3>Article Title Two</h3>
+                    <a href="/">Author One</a>
+                </header>
+                <p>Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP, Sơn Tùng MTP</p>
+            </article>
+        </section>
+
+        <table>
+            <caption>Đếm Số</caption>
+
+            
+            <tr>
+                <td rowspan="6">LẦN ĐẾM</td>
+                <th>Dư 1</th>
+                <th>Dư 2</th>
+                <th>Dư 3</th>
+                <th>Dư 4</th>
+                <th>Dư 5</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;" colspan="5">NGỪNG ĐẾM</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+        </table>
+
+    </main>
+
+    <footer id="footer">Copyright</footer>
+
+</body>
+</html>

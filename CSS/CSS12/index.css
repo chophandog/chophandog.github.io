@@ -1,0 +1,40 @@
+#header {
+    background-color: lightseagreen;
+    padding: 24px;
+    grid-area: header;
+}
+
+#sidebar {
+    background-color: lightcoral;
+    padding: 24px;
+    grid-area: sidebar;
+}
+
+#main {
+    background-color: lightblue;
+    height: 460px;
+    padding: 24px;
+    grid-area: main;
+}
+
+#aside {
+    background-color: red;
+    padding: 24px;
+    grid-area: aside;
+}
+
+
+#footer {
+    background-color: lightseagreen;
+    padding: 24px;
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'sidebar main main main main aside'
+    'footer footer footer footer footer footer' ;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+#div1 {
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: lightblue;
+
+}
+
+#div2 {
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: lightcoral;
+    margin-top: 24px;
+    padding-right: 80px;
+    box-sizing: border-box;
+
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
