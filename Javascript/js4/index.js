@@ -1,0 +1,20 @@
+var btn = document.getElementById("btn-click");
+var mainDiv = document.querySelector("header div");
+
+
+
+
+function onBtnClick() {
+
+
+    // var randomNum = (Math.floor(Math.random() * 255));
+    // alert("rgb("+ randomNum + ",45,155)")
+    
+    btn.style.backgroundColor ="rgb("+ (Math.floor(Math.random() * 255)) +"," + (Math.floor(Math.random() * 255)) + "," + (Math.floor(Math.random() * 255)) +")" ;
+    
+    
+    
+}
+// btn.onclick = onBtnClick;
+
+btn.addEventListener("click", onBtnClick);

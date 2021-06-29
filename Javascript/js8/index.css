@@ -1,0 +1,17 @@
+#tab {
+    display: flex;
+    
+}
+
+.audio-click {
+    margin-right: 32px;
+    text-align: center;
+    border: black solid 3px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.desc-text {
+    color: red;
+}
+

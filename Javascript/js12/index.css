@@ -1,0 +1,159 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#topbar {
+    background-color: #282c34;
+    padding: 24px 48px 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#logo {
+    width: 100px;
+}
+
+.main-container {
+    padding: 4% 12%;
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.product-container {
+    width: 50%;
+    position: relative;
+}
+
+.product-container > img {
+    width: 100%;
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color:white;
+    font-size: 32px;
+    font-weight: 600;
+    display: none;
+}
+
+.heart > i {
+    color: red;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.heart > p {
+    margin-top: 16px;
+}
+
+
+
+#product-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#product-desc {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    margin-bottom: 16px;
+    
+}
+
+#product-select {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+#red-item {
+    border: 2px solid teal;
+}
+
+
+
+.features-item {
+    min-width: 80px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    box-sizing: content-box;
+    outline: none;
+    padding: 12px 24px;
+}
+
+#time-item {
+    color: white;
+    background-color: gray;
+}
+
+#primary-btn {
+    color:white;
+    background-color: teal;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 12px 24px;
+    margin-top: 32px;
+    cursor: pointer;
+    outline: none;
+}
+
+#primary-btn:hover {
+    background-color: transparent;
+    color: teal;
+    border: 1px solid teal;
+}
+
