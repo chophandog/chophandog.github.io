@@ -59,13 +59,26 @@ chooseItemPurple.addEventListener("click", function(){
 
 
 var timing = document.getElementById("timing");
-var today = new Date();
+timing.onload = startTime();
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    // add a zero in front of numbers<10
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById("timing").innerHTML = h+ ":" + m + ":" + s;
+    t = setTimeout(function(){ startTime() }, 500);
+  }
+  
+  function checkTime(i) {
+    if (i<10) {
+      i = "0" + i;
+    }
+    return i;
+  }
 
-function addZero(num){
-    num < 10 ? "0" + num : num;
-    return num;
-}
-timing.innerHTML = addZero(today.getHours()) + ":" + addZero(today.getMinutes()) + ":" + addZero(today.getSeconds());
 
 var chooseItemTime = document.getElementById("time-item");
 var chooseItemHeart = document.getElementById("heart-item");
