@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background:linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+header > form {
+    width: 30%;
+}
+
+
+
+form > input {
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+    font-size: 24px;
+    outline: none;
+    align-items: center;
+}
+
+#username-error {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    display: none;
+}
